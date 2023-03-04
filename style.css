@@ -1,0 +1,62 @@
+body {
+  background-color: white;
+}
+
+#main {
+  background-color: lightgray;
+}
+
+#title {
+  text-align: center;
+}
+
+#main p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#img-div {
+  background-color: white;
+  text-align: center;
+  width: 95%;
+  height: 500px;
+}
+
+#image {
+  height: auto;
+  width: 100%;
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#tribute-info {
+  margin: 10px auto;
+  text-align: center;
+  text-align: justify;
+  width: 40%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  img {
+    height: 70px;
+    width: 95%;
+    text-align: center;
+  }
+
+  #img-div {
+    background-color: white;
+    text-align: center;
+    width: 95%;
+  }
+}
+
+#quote {
+  text-align: center;
+}
+
+#tribute-link {
+  text-align: center;
+}
